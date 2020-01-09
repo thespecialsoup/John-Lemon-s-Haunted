@@ -626,6 +626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 457448292097054944}
   - component: {fileID: 457448292089542408}
+  - component: {fileID: 3013217832867953216}
   m_Layer: 0
   m_Name: JohnLemon
   m_TagString: Untagged
@@ -668,6 +669,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3013217832867953216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457448292096820416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf49bf6b972dbd4cbadd077b12a1ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 20
 --- !u!1 &457448292096820418
 GameObject:
   m_ObjectHideFlags: 0
